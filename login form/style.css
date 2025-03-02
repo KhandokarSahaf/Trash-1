@@ -35,3 +35,15 @@ nav li a:hover {
 .active:hover{
     background-color: #04aa6d93;
 }
+
+/* form  */
+form{
+    width: 50%;
+    margin: 30px auto;
+    gap: 20px;
+    border: 2px solid tomato;
+    text-align: center;
+}
+input{
+   display: block;
+}

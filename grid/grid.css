@@ -14,7 +14,7 @@ h2{
     grid-template-rows: repeat(5, 100px);
     justify-content: center;
     padding: 40px;
-    row-gap: 10px;
+    row-gap: 15px;
     column-gap: 15px;
 }
 

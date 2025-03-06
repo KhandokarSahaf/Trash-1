@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.food{
+    border: 1px solid navy;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.food img{
+    width: 100px;
+}

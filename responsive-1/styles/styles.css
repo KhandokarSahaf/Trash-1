@@ -39,6 +39,9 @@ h2{
     .container{
         flex-direction: column;
     }
+    img{
+        width: 100%;
+    }
 }
 
 /* medium device */
@@ -46,5 +49,8 @@ h2{
 @media screen and (min-width:577px) and (max-width:992px) {
     .container{
         flex-direction: column;
+    }
+    img{
+        width: 100%;
     }
 }

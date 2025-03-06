@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 32px;
+    padding: 20px ;
+}
+
+.btn-primary{
+    background-color: rgb(37, 37, 218);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.btn-primary:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+/* Small devices  */
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container{
+        flex-direction: column;
+    }
+}

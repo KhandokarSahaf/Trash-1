@@ -21,3 +21,21 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+/* RESPONSIVE */
+/* SMALL DEVICES */
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .vertical-4{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* MEDIUM DEVICES */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
